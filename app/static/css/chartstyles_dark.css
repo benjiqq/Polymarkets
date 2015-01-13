@@ -1,0 +1,113 @@
+
+
+body {
+  font: 12px sans-serif;
+  background: #BBBBBB;
+}
+
+h1 {
+    color: #FFEEB8;
+    font-size: 28px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+}
+
+text {
+    color: #777;
+}
+
+.searchbox {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    height: 18px;
+    width: 120px;
+    font-size: 16px;
+    font-family: 'Varela Round';
+    color: #555;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #444;
+  color: #444;
+  shape-rendering: crispEdges;
+}
+
+.x.axis {
+  fill: #CCC;
+  font-family: 'Varela Round';
+}
+
+.x.axis path {
+  display: none;
+  color: #CCC;
+
+}
+
+.y.axis {
+  fill: #CCC;
+  font-family: 'Varela Round';
+}
+
+.y.axis.text {
+    font-size:12px;
+    font-family: 'Varela Round';
+}
+
+.chart {
+    position:absolute;
+    width:960;
+    /*    margin:-55px 0 0 -480px;    */
+    margin-left: -480px;
+    margin-top: -30px;
+    left:50%;
+
+}
+
+.border {
+    fill: #888;
+}
+
+.chart_price {
+  background: #2D2E2D;
+  box-shadow: 0 0 2px 1px #CCC;
+  margin-top: -5px;
+}
+
+.chart_price > * > .line {
+  fill: none;
+    stroke: #4DE89A;
+  stroke-width: 2.5px;
+}
+
+
+  /*
+.volume > * > .line {
+  fill: none;
+  stroke: #00CC66;
+  stroke-width: 2.5px;
+}
+
+.volume > * > .rect {
+  color: white;
+  stroke: #00CC66;
+  stroke-width: 2.5px;
+}
+  */
+.chart_volume {
+  background: #2D2E2D;
+  box-shadow: 0 0 2px 1px #CCC;
+  margin-top: 5px;
+}
+
+.chart_volume > * > rect {
+   stroke: #7996E8;
+    fill: #7996E8;
+ }
+
+.rocchart rect {
+   stroke: #ffffff;
+   fill: #659189;
+ }

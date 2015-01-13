@@ -1,0 +1,152 @@
+body {
+	    background: #222;
+}
+
+h1 {
+	    font-family: 'Varela Round';
+        font-size: 34px;
+	    color: #eee;
+	    margin-left: 40%;
+}
+
+/*YUI css*/
+
+.yui3-overlay {
+
+  background:#161e31;
+  background:#333;
+  color:#bbb;
+  padding:10px;
+  border-radius:3px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.8);
+  overflow:hidden;
+
+}
+
+.yui3-overlay a {
+  text-decoration:none;
+  color: #30bef2;
+}
+.yui3-overlay a:hover {
+  color: #8cd7f2;
+}
+.yui3-overlay h1 {
+  color: black;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 300;
+  margin-top:2px;
+  font-size: 14px;
+}
+
+#myButton {
+  font-size: 16px;
+}
+
+
+
+/* -----------
+toolbar
+-----------
+*/
+
+.yui3-toolbar {
+  border: solid 1px #999;
+  background-color: #444;
+  margin-top: 45px;
+  width: 102%;
+  margin-left: -10px;
+  overflow: auto;
+}
+
+.yui3-toolbar-button {
+  display: inline-block;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #808080;
+  background-color: #dfdfdf;
+  margin: .25em;
+  margin-left:10px;
+  font-size: 85%;  /* 11px */
+}
+
+.first-child {
+  margin-left:50px;
+}
+
+.yui3-toolbar-button span {
+  display: inline-block;
+  border-width: 0 1px;
+  border-style: solid;
+  border-color: #808080;
+  margin: 0 -1px;
+  *position: relative;    /* Necessary to get negative margins working in IE */
+  *left: -1px;
+}
+
+.yui3-toolbar-button span span {
+  display: inline-block;
+  border: solid 1px #123456;
+  margin: 0;
+  *position: static;
+}
+
+.yui3-toolbar-button input {
+  border: none;
+  margin: 0;
+  padding: 4px 4px 4px 24px;
+  *overflow: visible; /* Remove superfluous padding for IE */
+  background: transparent url(/static/icons.png) no-repeat;
+}
+
+#add-btn input {
+  background-position: 4px -102px;
+  *background-position: 4px -100px;
+}
+
+#stocklist-btn input {
+  background-position: 4px -78px;
+  *background-position: 4px -76px;
+}
+
+#eval-btn input {
+  background-position: 4px -6px;
+  *background-position: 4px -4px;
+}
+
+
+#market-btn input {
+/*  background-position: 4px -86px;
+  *background-position: 4px -84px;
+  */
+  background: none;
+}
+
+
+#headerbg{
+  background-color: #777;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:60px;
+  z-index:-1
+}
+
+#headline{
+  color: #fff;
+  position:absolute;
+  top:-15px;
+  left:12px;
+}
+
+#textboxdiv {
+  position:absolute;
+  top: 90px;
+  left: 10px;
+  height:80px;
+}
+
+#textbox {
+  font-family: Arial;
+  font-size: 24px;
+}

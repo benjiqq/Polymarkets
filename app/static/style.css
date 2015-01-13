@@ -1,0 +1,110 @@
+
+body {
+	font-size:14px;margin: 0px;padding: 0px;border: 0px;
+	 font-family:Arial, Helvetica, sans-serif;
+  background:#F9F9F9;
+
+}
+
+h1 {
+	font-size:14px;margin: 0px;padding: 0px;border: 0px;
+	 font-family:Arial, Helvetica, sans-serif;color:#fff;
+}
+
+table {
+	border:1px solid #888;
+	margin-left: 0px;
+	padding: 10px;
+}
+
+/*
+table td, table th {
+  border: 1px solid black;
+}
+*/
+
+#info table {
+
+	border:1px solid #AAA;
+	margin-left: 50px;
+	padding: 20px 20px 20px 20px;
+
+	display: block;
+  	height: 400px;
+  	width: 200px;
+  	overflow-y: scroll;
+}
+
+.tablehead{
+	 background-color: #6699CC;
+}
+
+
+tr.spacer > td{
+	 background-color: #99CCB3;
+	 padding-top: 0.5em;
+}
+
+tr.statrow > td{
+	 background-color: #C2C2C2;
+}
+
+
+/*Fonts*/
+
+a { font-size:12px; color:#666;}
+a:link{color:#999999; text-decoration:none;}
+a:visited{color:#999999; text-decoration:none;}
+h1 { font-size:22px; font-weight:bold; color:#333; margin-top: 10px;}
+h2 { font-size:18px; font-weight:bold; color:#008; margin-top:30px;}
+h3 {font-size:14px; font-weight:bold; color:#333;}
+
+/*Fonts END*/
+
+#header {background:#000020;height:60px;border-bottom:solid 1px #333333;}
+
+#midrow {width:960px;margin:0 auto;}
+#maincontent {width:960px;margin:0 auto;}
+.textbox{float:left;padding:10px 0px;width:700px;}
+.center{width:960px;margin:0 auto;}
+
+
+
+
+/*LOGO*/
+#logo{padding-top:6px;width:207px;float:left;}
+/*LOGO END*/
+
+/*Menu Begin*/
+#menu{float:right;margin-top:8px;}
+#menu ul li{ display:inline; list-style-type:none;}
+#menu ul li a{padding:7px 0px; font-size:14px; text-decoration:none; margin:0px 5px; font-weight:bold;}
+#menu ul li a span{font-size:14px; text-decoration:none; padding:0px 10px; color:#999999;}
+#menu ul li a:hover{
+height: 65px;
+width:160px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+background-color: #BFBFBB;
+}
+#menu ul li a:hover span{padding:5px 10px;color:#333;}
+
+
+#menu ul li.active a {
+height: 65px;
+width:160px;
+border-radius: 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+background-color: #BFBFBB;
+}
+
+#menu ul li.active a span {
+padding:5px 10px;color:#333;
+}
+
+
+/*Menu End*/
+
+

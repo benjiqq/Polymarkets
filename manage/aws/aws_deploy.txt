@@ -1,0 +1,24 @@
+sudo yum install python27
+
+python27 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+
+cd /usr/lib/python2.7/site-packages
+
+sudo mkdir /usr/lib/python2.7/site-packages
+
+cd ~
+
+wget http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11-py2.7.egg#md5=fe1f997bc722265116870bc7919059ea
+
+sudo sh setuptools-0.6c11-py2.7.egg
+
+
+sudo /usr/bin/python27 /usr/bin/easy_install mechanize
+
+
+sudo /usr/bin/python27 /usr/bin/easy_install BeautifulSoup
+
+curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+
+sudo python get-pip.py 
+

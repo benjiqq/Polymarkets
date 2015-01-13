@@ -1,0 +1,1 @@
+rsync -avL --progress -e "ssh -i /Users/blc/bensh.pem" /Users/blc/app/* ubuntu@ec2-107-21-136-83.compute-1.amazonaws.com:/home/ubuntu/app

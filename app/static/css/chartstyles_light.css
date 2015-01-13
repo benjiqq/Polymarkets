@@ -1,0 +1,129 @@
+#overlayz1 {
+  background:#F9F9F9
+}
+
+
+/*not working*/
+/*
+.yui-dt-scrollable .yui-dt-bd {
+       overflow-y:scroll;
+       overflow-x:scroll;
+}
+*/
+
+body {
+  font: 12px sans-serif;
+  background: #F9F9F9;
+}
+
+h1 {
+    color: #555;
+    font-size: 28px;
+    font-family: 'Varela Round';
+    font-weight: 400;
+}
+
+text {
+    color: #777;
+}
+
+.searchbox {
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    height: 18px;
+    width: 120px;
+    font-size: 16px;
+    font-family: 'Varela Round';
+    color: #555;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #444;
+  color: #444;
+  shape-rendering: crispEdges;
+}
+
+.x.axis {
+  fill: #444;
+  font-family: 'Varela Round';
+}
+
+.x.axis path {
+  display: none;
+  color: #444;
+
+}
+
+.y.axis {
+  fill: #777;
+  font-family: 'Varela Round';
+}
+
+.y.axis.text {
+    font-size:12px;
+    font-family: 'Varela Round';
+}
+
+.chart {
+    position:absolute;
+    width:960;
+    /*    margin:-55px 0 0 -480px;    */
+    margin-left: -480px;
+    margin-top: 10px;
+    left:50%;
+
+}
+
+.border {
+    fill: #888;
+}
+
+.chart_price {
+  background: #DDD;
+  box-shadow: 0 0 2px 1px #CCC;
+  margin-top: -5px;
+}
+
+.chart_price > * > .line {
+  fill: none;
+    stroke: #376D94; /*#3C778C;*/
+  stroke-width: 2.5px;
+}
+
+
+
+.chart_volume {
+  background: #DDD;
+  box-shadow: 0 0 2px 1px #CCC;
+  margin-top: 5px;
+}
+
+.chart_roc {
+  background: #DDD;
+  box-shadow: 0 0 2px 1px #CCC;
+  margin-top: 5px;
+}
+
+.chart_volume > * > rect {
+   stroke: #569AAD;
+    fill: #569AAD;
+ }
+
+/*.chart_roc > * > rect {
+   stroke: #FF3F38;
+   fill: #FF3F38;
+ }*/
+
+.bar.positive {
+  stroke: steelblue;
+  fill: steelblue;
+}
+
+.bar.negative {
+  stroke: brown;
+  fill: brown;
+}
+

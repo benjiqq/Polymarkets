@@ -1,0 +1,33 @@
+path {
+  stroke: #33f;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis {
+  font-color: white;
+  shape-rendering: crispEdges;
+  fill: #ccc;
+}
+
+.x.axis line {
+  stroke: lightgrey;
+  fill: #ccc;
+}
+
+.x.axis .minor {
+  stroke-opacity: .5;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.y.axis line, .y.axis path {
+  fill: none;
+  stroke: #ccc;
+}
+
+
+
+
